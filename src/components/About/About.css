@@ -1,0 +1,35 @@
+.about{
+    background-color:var(--background);
+    width: 50%;
+    height: 50vh;
+    z-index: 2;
+    position: relative;
+    left:25% ;
+    bottom: 29vh;
+    
+}
+
+.pro-pic{
+        display: block;
+        border-radius: 55%;
+        height:170px;
+        width: 170px;
+        align-self:center; 
+        top:5vh;
+        margin: auto;
+        position: relative;    
+        border:10px solid var(--light-clr);
+}
+
+.Title{
+    text-align: center;
+    color: var(--primary-clr);
+    font-weight: 400;
+    font-size:3rem;
+}
+
+.desc{
+    text-align: center;
+    color: var(--light-clr);
+    font-size: 1.5rem;
+}

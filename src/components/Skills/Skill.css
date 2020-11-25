@@ -1,0 +1,12 @@
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin:20vh 20%;
+}
+
+.icon{
+    flex:1;
+    font-size: 4rem;
+}
