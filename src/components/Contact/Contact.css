@@ -1,0 +1,28 @@
+.Contact-height{
+    display:flex;
+    height:70vh;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--div-clr);
+    clip-path: polygon(0 25vh,100% 0,100% 100%,0 100%);
+}
+
+.contact-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fa-linkedin,
+.fa-twitter-square{
+    color: var(--light-clr);
+    opacity: 0.7;
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+.fa-linkedin:hover,
+.fa-twitter-square:hover{
+    color: var(--primary-clr);
+}

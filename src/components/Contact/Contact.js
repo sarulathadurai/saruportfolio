@@ -1,0 +1,30 @@
+import React from 'react';
+import "./Contact.css"
+const Contact = () => {
+    return ( 
+        <div className="Contact-height">
+            <div>
+                <h1 className="Title ">
+                    Catch me up
+                </h1>
+                <div className="contact-links">
+                    
+                    <a href="https://github.com/sarulathadurai" target="_blank">
+                        <i  className="fab fa-github"></i>
+                    </a>
+    
+                  <a href ="https://www.linkedin.com/in/sarulatha-annadurai-060226180/" target="_blank">
+                        <i class="fab fa-linkedin"></i> 
+                  </a>
+
+                  <a href="https://twitter.com/sarulat80587902" target="_blank">
+                        <i class="fab fa-twitter-square"></i>
+                  </a>
+  
+                </div>
+            </div>
+        </div>
+     );
+}
+ 
+export default Contact;
