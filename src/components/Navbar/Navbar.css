@@ -1,0 +1,42 @@
+
+a{
+    color: var(--light-clr);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--primary-clr);
+}
+
+
+.nav li a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.nav li {
+    display: inline-block;
+    margin:0 15px;
+
+}
+.nav ul {
+    text-align: right;
+    margin: 0;
+    padding: 20px;
+}
+ .nav{
+    background-color: #010101;
+    margin: 0;
+    padding: 0;
+ } 
+
+@media only screen and (max-width:600px){
+
+    #desktop-nav{
+        display: none;
+    }
+
+    #navToggle{
+        display: block;
+    }
+}

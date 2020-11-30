@@ -4,10 +4,10 @@ import "./Blogs.css";
 const Blogs = () => {
     return ( 
         <React.Fragment>
-            <div className="section-height">
+            <div className="Blog-height" id="blogs">
                 <h1 className="Title">Blogs</h1>
                 <div className = "row">
-                    <div className="Content">
+                    <div className="Blog-Content">
                         <h3 className="Project-title">Fetch api using axios and fetch api </h3>
                         <p className="Project-desc">
                            Fetch api is a built in promise-based api. 
@@ -18,7 +18,7 @@ const Blogs = () => {
                             <i className="fas fa-external-link-alt"></i>
                         </a>
                     </div>
-                    <div className="Content">
+                    <div className="Blog-Content">
                         <h3 className="Project-title">How to use map() reduce() and filter()?</h3>
                         <p className="Project-desc">The map function is capable of accessing each 
                            object in an array and perform the desired operation 
@@ -28,7 +28,7 @@ const Blogs = () => {
                             <i className="fas fa-external-link-alt"></i>
                         </a>
                     </div>
-                    <div className="Content">
+                    <div className="Blog-Content">
                         <h3 className="Project-title">How to overcome Imposter Syndrome?</h3>
                         <p className="Project-desc">Literally everybody in any field has higher possibilities of falling 
                            in imposter syndrome. From childhood we had been practised ...

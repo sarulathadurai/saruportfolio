@@ -3,11 +3,11 @@ import "./About.css";
 import profilepic from "../../Assets/profilepic.jpg"
 const About = () => {
     return ( 
-        <div class="about">
+        <div className="about">
            <div>
            <img src={profilepic} className="pro-pic"></img>
            </div>
-           <div>
+           <div className="name" >
                <h1 className="Title">Sarulatha Annadurai</h1>
                <p className="desc">Front-End Developer | Student </p>
            </div>

@@ -4,9 +4,10 @@ const Contact = () => {
     return ( 
         <div className="Contact-height">
             <div>
-                <h1 className="Title ">
-                    Catch me up
+                <h1 className="Title" id="contact">
+                    Contact
                 </h1>
+                <p className="desc">Feel free to reach me out in </p>
                 <div className="contact-links">
                     
                     <a href="https://github.com/sarulathadurai" target="_blank">
@@ -20,8 +21,15 @@ const Contact = () => {
                   <a href="https://twitter.com/sarulat80587902" target="_blank">
                         <i class="fab fa-twitter-square"></i>
                   </a>
-  
+
+                  <a href="https://dev.to/sarulathadurai" target="_blank" >
+                        <i className="fab fa-dev"></i>
+                  </a> 
                 </div>
+                <div>
+                    <p className="desc">or send a message through</p>
+                    <a href="mailto:sarulathannadurai@gmail.com" className="mail">sarulathannadurai@gmail.com</a> 
+                    </div>
             </div>
         </div>
      );

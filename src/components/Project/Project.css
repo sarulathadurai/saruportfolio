@@ -12,6 +12,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    
 }
 
 .img-align{
@@ -29,7 +31,7 @@
 
 .Content{
     display: block;
-    flex-grow: 3;
+    /* flex-grow: 3; */
     background-color: var(--div-clr);
     margin: 10px  20px;
     width: 60vh;
@@ -41,7 +43,7 @@
 .Project-desc{
     font-size: 1rem;
     color: var(--light-clr);
-    margin: 10px;
+    margin: 20px 10px;
     line-height: 1.5em;
     font-weight: 500;
 }
@@ -66,4 +68,37 @@
 .fa-external-link-alt:hover,
 .stack:hover{
     color: var(--primary-clr);
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .img-align{
+        object-fit: contain;
+        height: 50vh;
+        width: 50vh;
+    }
+
+    .Content{
+        display: block;
+        background-color: var(--div-clr);
+        width: 50vh;
+        height: 40vh;
+        font-family: Avenir;
+        border-top:10px solid var(--primary-clr) ;
+    }
+
+
+    .fa-github,.fa-external-link-alt{
+        color: var(--light-clr);
+        opacity: 0.7;
+        font-size: 1.5em;
+        margin: 10px;
+    }
+
+    .fa-github:hover,
+    .fa-external-link-alt:hover,
+    .stack:hover{
+        color: var(--primary-clr);
+    }
+
 }

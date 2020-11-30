@@ -1,0 +1,38 @@
+.heading{
+    text-align: center;
+    color: var(--primary-clr);
+    font-weight: 400;
+    font-size:3rem;
+    margin: 0 0 10% 0;
+}
+
+.image{
+    object-fit: contain;
+    height: 40vh;
+}
+
+.Talk-desc{
+    font-size: 1rem;
+    color: var(--light-clr);
+    margin: 10px;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+.Talk-title{
+    color: var(--primary-clr);
+    font-size: 1.5rem;
+    justify-content: center;
+    margin: 10px;
+}
+.link_highlighter{
+    font-size: 1rem;
+    color: var(--light-clr);
+    margin: 10px;
+    line-height: 1.5em;
+    font-weight: 500;   
+}
+
+.link_highlighter:hover{
+    color: var(--primary-clr)
+}

@@ -12,7 +12,7 @@ const Project = () => {
     const [project,setProject] = useState(
         [
             {
-                name:"  Ui-Picker  ",
+                name:" 🎨 Ui-Picker 🖌️ ",
                 description:"Ui-picker is a website built using Vanilla-JS which helps to pick colours for the website to enrich the user-interface.It also has template where you can change the colours of the components.",
                 href:"https://ui-picker.netlify.app/",   
                 ghref:"https://github.com/sarulathadurai/ui-picker",
@@ -28,7 +28,7 @@ const Project = () => {
                 stack:"HTML,CSS,JavaScript"
             },
             {
-                name:"Quiz App",
+                name:" 🤯 Quiz App 🤯",
                 description:"A quiz app on javascript which may help tune yourself for an interview.Answer soon as clock ticks!",
                 href:"https://quiz-in-javascript.netlify.app/",
                 ghref:"https://github.com/sarulathadurai/QuizApp", 
@@ -36,7 +36,7 @@ const Project = () => {
                 stack:"React ,Bootstrap"
             },
             {
-                name:"Dictionary",
+                name:" 📖 Dictionary 📖",
                 description:" Life is all about find meaning of your life.For finding meaning for words here is a dictionary where you can get meanings of words.",
                 href:"https://findmeaning.netlify.app/",
                 ghref:"https://github.com/sarulathadurai/Dictionary.git",   
@@ -44,7 +44,7 @@ const Project = () => {
                 stack:"React, Bootstrap ,googleApi"
             },
             {
-                name:"Weather Finder",
+                name:" ⛈️ Weather Finder ⛈️",
                 description:"Ever wondered what the other part of world dealing with.This weather app helps you to get the live weather conditions of any part of the world.",
                 href:"https://weathersearcher.netlify.app/", 
                 ghref:"https://github.com/sarulathadurai/weather",
@@ -52,7 +52,7 @@ const Project = () => {
                 stack:"React, Bootstrap,OpenWeatherMap Api"
             },
             {
-                name:"Lyric Finder",
+                name:"📜 Lyric Finder 📜",
                 description:"Ever wondered what is the lyrics of the song which I am hearing? LyricFinder is here to help you get the lyrics.",
                 href:"https://lyricfinderz.netlify.app/",   
                 ghref:"https://github.com/sarulathadurai/LyricFinder",
@@ -65,7 +65,7 @@ const Project = () => {
    
     return ( 
         <div>
-            <h1 className="Title">Projects</h1>
+            <h1 className="Title" id="projects">Projects</h1>
             <div className="column">
                {project.map((item,index)=>{
                  return (                  

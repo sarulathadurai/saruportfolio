@@ -9,8 +9,14 @@
     align-items: center;
     justify-content: center;
     margin: 30% 0;
+    flex-direction: column;
 }
 
 .highlight{
     color: var(--primary-clr);
+}
+
+.Intro-height{
+     
+    height: 100vh;
 }

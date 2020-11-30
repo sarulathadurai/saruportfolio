@@ -33,3 +33,40 @@
     color: var(--light-clr);
     font-size: 1.5rem;
 }
+
+@media only screen and (max-width:600px){
+    .pro-pic{
+        /* display: block; */
+        border-radius: 55%;
+        height:120px;
+        width: 140px;
+        align-self:center; 
+        top:5vh;
+        margin: auto;
+        position: relative;    
+        border:10px solid var(--light-clr);
+    }
+
+    .Title{
+        text-align: center;
+        color: var(--primary-clr);
+        font-weight: 400;
+        font-size: 2rem;
+    }    
+
+    .name{
+
+        margin: 10vh 0 ;
+    }
+
+    .about{
+        background-color:var(--background);
+        width: 60%;
+        height: 50vh;
+        z-index: 2;
+        position: relative;
+        left:25% ;
+        bottom: 29vh;
+        
+    }
+}

@@ -1,0 +1,23 @@
+.list-style{
+    width:auto;
+    background-color:var(--background-clr);
+    padding:10px;
+    z-index:2;
+    animation:open 10s ease-in-out;
+}
+
+.list-style li {
+
+    padding: 10px;
+    text-align:center;
+   
+}
+
+.list-style ul{
+    list-style-type: none;
+}
+
+@keyframes open{
+    from{top:0px;}
+    to{top:30px;}
+}

@@ -1,0 +1,22 @@
+.Blog-Content{
+    /* display: block; */
+    background-color: var(--div-clr);
+    margin: 10px  20px;
+    width: 50vh;
+    height: 50vh;
+    font-family: Avenir;
+    border-top:10px solid var(--primary-clr) ;
+}
+
+
+.Blog-height{
+
+    height: 100vh;
+
+}
+
+@media only screen and (max-width:500px){
+    .Blog-height{
+        height: 200vh;
+    }
+}
