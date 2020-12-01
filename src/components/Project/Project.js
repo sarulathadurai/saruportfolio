@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React  from 'react';
 import ui from "../../Assets/ui.png";
 import lyric from "../../Assets/lyric.png";
 import memory from "../../Assets/memory.png";
@@ -9,8 +9,7 @@ import "./Project.css"
 
 const Project = () => {
 
-    const [project,setProject] = useState(
-        [
+    const project=        [
             {
                 name:" 🎨 Ui-Picker 🖌️ ",
                 description:"Ui-picker is a website built using Vanilla-JS which helps to pick colours for the website to enrich the user-interface.It also has template where you can change the colours of the components.",
@@ -60,7 +59,6 @@ const Project = () => {
                 stack:"React, Bootstrap ,Rest Api"
             }
         ]
-    );
 
    
     return ( 
@@ -71,7 +69,7 @@ const Project = () => {
                  return (                  
                      <div key={index} className="row"> 
                         <div>
-                            <img src={item.src} className="img-align"></img>
+                            <img src={item.src} className="img-align" alt="demo"></img>
                         </div>
                         <div className="Content">
                             <h4 className="Project-title">{item.name}</h4>

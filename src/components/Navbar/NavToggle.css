@@ -1,12 +1,4 @@
-#wrapper {
-	background:#0D6FBA;
-	display:none;
-	border-radius:400px;
-	/* margin:10px; */
-	position: relative;
-  	padding:15px;
-	cursor:pointer;
-}
+
 .circle {
 	width:30px;
 	height:30px;

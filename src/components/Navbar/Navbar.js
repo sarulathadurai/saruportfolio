@@ -30,8 +30,8 @@ const Navbar = () => {
                 </li>
             </ul>    
         </nav>
-        <ul>
-            <li id="navToggle">
+        <ul id="navToggle">
+            <li>
                 <NavToggle />
             </li>
         </ul>

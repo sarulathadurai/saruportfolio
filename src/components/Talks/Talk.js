@@ -9,7 +9,7 @@ const Talk = () => {
                 <div className = "column">
                     <div className="row"> 
                             <div>
-                                <img src={saru} className="image"></img>
+                                <img src={saru} className="image" alt="invite-card"></img>
                             </div>
                             <div className="Content">
                                 <h1 className="Talk-title">Throttling and Debouncing</h1>

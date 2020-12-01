@@ -7,15 +7,15 @@ const Skill = () => {
             <h1 className="Title">Skills</h1>
             <div className="skill-column">
                 <div className="skill-row">
-                    <i class="devicon-bootstrap-plain colored icon"></i>
-                    <i class="devicon-html5-plain colored icon"></i>
-                    <i class="devicon-css3-plain colored icon"></i>
-                    <i class="devicon-react-original colored icon"></i>
+                    <i className="devicon-bootstrap-plain colored icon"></i>
+                    <i className="devicon-html5-plain colored icon"></i>
+                    <i className="devicon-css3-plain colored icon"></i>
+                    <i className="devicon-react-original colored icon"></i>
                 </div>
                 <div className="skill-row">
-                    <i class="devicon-javascript-plain colored icon"></i>
-                    <i class="devicon-github-plain colored icon"></i>
-                    <i class="devicon-git-plain colored icon"></i> 
+                    <i className="devicon-javascript-plain colored icon"></i>
+                    <i className="devicon-github-plain colored icon"></i>
+                    <i className="devicon-git-plain colored icon"></i> 
                 </div>               
             </div>
         </div>
