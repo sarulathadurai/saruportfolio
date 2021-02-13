@@ -31,7 +31,7 @@ const Contact = () => {
                     <a href="mailto:sarulathannadurai@gmail.com" className="mail">sarulathannadurai@gmail.com</a> 
                 </div>
                 <footer id="footer">
-                    <a href="" target="_blanck" rel = "noreferrer">Developed with <span role="img" aria-label="Heart">♥</span> by Sarulatha Annadurai  </a>
+                    <a href="https://github.com/sarulathadurai/saruportfolio" target="_blanck" rel = "noreferrer" className="stack">Developed with <span role="img" aria-label="Heart">♥</span> by Sarulatha A </a>
                 </footer>
             </div>
         </div>

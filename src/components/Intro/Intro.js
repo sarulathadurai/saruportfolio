@@ -9,7 +9,7 @@ const Intro = () => {
                     </h1>
                 <div className="container">
                     <p className="desc">
-                        Hi ! I'm <strong className="highlight">Sarulatha Annadurai</strong> fascinated in developing front-end applications.
+                        Hi ! I'm <strong className="highlight">Sarulatha A</strong> fascinated in developing front-end applications.
                         I am ambitious in building products where I can exhibit my potential and skills.
                     </p>
                 </div>
