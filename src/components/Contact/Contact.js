@@ -29,7 +29,10 @@ const Contact = () => {
                 <div>
                     <p className="desc">or send a message through</p>
                     <a href="mailto:sarulathannadurai@gmail.com" className="mail">sarulathannadurai@gmail.com</a> 
-                    </div>
+                </div>
+                <footer id="footer">
+                    <a href="" target="_blanck" rel = "noreferrer">Developed with <span role="img" aria-label="Heart">♥</span> by Sarulatha Annadurai  </a>
+                </footer>
             </div>
         </div>
      );
