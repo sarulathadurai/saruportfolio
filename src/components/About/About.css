@@ -1,12 +1,15 @@
 .about{
-    background-color:var(--background);
+    /* background-color:var(--background); */
     width: 50%;
     height: 50vh;
     z-index: 2;
     position: relative;
     left:25% ;
-    bottom: 29vh;
-    
+    bottom: 60vh;
+    background: #0e0f153b;
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px); 
+    border-radius: 10px;
 }
 
 .pro-pic{
